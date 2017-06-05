@@ -1,0 +1,116 @@
+/* Table of Contents
+ ==================================================
+ # Imports
+ # Fonts
+ # All
+ # Selection
+ # Placeholder
+ # Body
+ # Container
+ *************************************************/
+
+/* IMPORT */
+
+@import url();
+
+@import url(bootstrap.css);
+@import url(bootstrap.min.css);
+@import url(bootstrap-theme.css);
+@import url(bootstrap-theme.min.css);
+@import url(jquery-ui-1.10.4.custom.css);
+@import url(jquery-ui-1.10.4.custom.min.css);
+
+/* FONT */
+
+@font-face {
+}
+
+/* ALL */
+
+* {
+
+}
+
+/* selection */
+
+::selection {
+}
+::-moz-selection {
+}
+
+/* placeholders */
+
+::-webkit-input-placeholder {
+}
+::-moz-placeholder {
+}
+:-ms-input-placeholder {
+}
+input:-moz-placeholder {
+}
+
+/* BODY */
+
+body {
+    background: #eee;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 960px;
+}
+
+/* NAV */
+
+.navbar {
+    min-height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+}
+
+.navbar-default {
+    background: transparent;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.nav > li > a {
+    color: #000;
+}
+
+.magicline {
+    background:#000;
+    width:1px;
+    height:2px;
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+/* CONTENT */
+
+a.article-link img.img-responsive {
+    background: #000;
+    transition: all 0.3s linear;
+}
+
+a.article-link:hover img.img-responsive {
+    opacity: 0.7;
+}
+
+/* FOOTER */
+
+#footer a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#footer a:hover {
+    color: #888;
+    text-decoration: none;
+    text-transform: uppercase;
+}
